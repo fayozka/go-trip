@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+.container{
+    padding: 0 15px;
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;}
+    
+    .header__nav{
+        background: #3E8989;
+        padding: 35px 0;
+    }
+    .header__nav .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__nav-list{
+        display: flex;
+        gap: 30px;
+    }
+    .header__nav-list a{
+       color: white;
+       font-family: "Rubik", sans-serif; 
+    }
+    .header__nav-list a:hover{
+        text-decoration: underline;
+    }
+    .header__nav-form{
+        display: flex;
+    }
+    .header__nav-form input{
+        padding: 8px 20px;
+        border-radius: 20px 0 0 20px;
+        font-size: 16px;
+    }
+    .header__nav-form button{
+        background: #295E5E;
+        color: #FFFFFF;
+        font-size: 14px;
+        padding: 9px 14px;
+        border-radius: 0 20px 20px 0;
+    }
+    .header__content{
+        background: url(../images/pic.png) center / cover;
+        height: 800px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    h1{
+        font-size: 80px;
+        font-family: "Rubik";
+    }
+    .header__content p{
+        font-size: 40px;
+        font-family: "Rubik";
+        font-weight: 500;
+    }
+    .header__content .silka{
+        color: white;
+        font-family: "Inter";
+        font-size: 18px;
+        background: #B4436C;
+        padding: 14px 77px;
+        margin: 50px;
+        border-radius: 30px;
+        transition: 500ms;
+    }
+    .header__content .silka:hover{
+        color: #B4436C;
+        background: white;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        padding: 80px 0 50px;
+        font-size: 40px;
+        font-family: "Inter";
+        font-weight: 600;
+        color: #3E8989;
+    }
+    .bla{
+        display: flex;
+        gap: 20px;
+    }
+    .paragraph{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .paragraph p{
+        font-size: 18px;
+        font-family: "Rubik";
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+        padding: 97px 0 53px;
+        font-size: 40px;
+        font-family: "Inter";
+        font-weight: 600;
+        color: #3E8989;  
+    }
+   
+    .catalog-cards{
+        display: flex;
+        gap: 20px;
+    }
+    .catalog-cards a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        font-family: "Inter";
+        font-weight: 600;
+        color: black;
+        transition: 300ms;
+    }
+    .catalog-cards a:hover{
+        color: #B4436C;
+    }
+    .tretiy h2{
+        justify-content: start;
+        padding: 100px 0 50px;
+    }
+    .contact{
+        padding-bottom: 104px;
+        display: flex;
+        gap: 388px;
+    }
+    .contact p{
+        font-family: "Rubik";
+        font-size: 20px;
+    }
+    .list a{
+        color: black;
+        font-family: "Rubik";
+    }
+    .footer{
+        background: #3E8989;
+    }
+    .sth{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+    .sth .footer-list{
+        display: flex;
+        gap: 30px;
+        padding: 40px 0 59px;
+        font-family: "Rubik";
+    }
+    .sth p{
+        padding-bottom: 15px;
+        font-family: "Rubik";
+    }
+    .sth .footer-list a{
+        color: white;
+    }
+    
+        
